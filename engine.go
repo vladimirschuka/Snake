@@ -163,19 +163,19 @@ func (f *Game) NewSnake() {
 	f.Snake = &Snake{
 		Direction: UP,
 		Body: []Point{
-			Point{
+			{
 				X: x,
 				Y: y,
 			},
-			Point{
+			{
 				X: x + 1,
 				Y: y,
 			},
-			Point{
+			{
 				X: x + 2,
 				Y: y,
 			},
-			Point{
+			{
 				X: x + 3,
 				Y: y,
 			}},
